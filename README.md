@@ -33,14 +33,14 @@ The two methods will be tested using 5 cent increments between 5 cents and 30 ce
 1. Draw binary expression trees for the following infix expressions.  Your trees should enforce the Java rules for operator evaluation (higher-precedence operators before lower-precedence operators and left associativity.) Note: they should also preserve the order seen in the expressions.
   - `x / y + a - b * c`
 
-  **[//Insert image here//]**
+ ![Answer for 1A](doc/problemImages/IMG_0512.jpeg)
   - `(x * a) - y / b * (c + d)`
   
-  **[//Insert image here//]**
+  ![Answer for 1B](doc/problemImages/IMG_0513.jpeg)
   
   - `(x + (a * (b - c)))/ d`
   
-  **[//Insert image here//]**
+  ![Answer for 1C](doc/problemImages/IMG_0513-1.jpeg)
   
 2. Using the Huffman tree in the figure below:
 
@@ -65,6 +65,7 @@ The two methods will be tested using 5 cent increments between 5 cents and 30 ce
 Full Tree: No
 Complete Tree: Yes
 Binary Search Tree: No`
+![Image of Binary Search Tree for 3A](doc/problemImages/IMG_0515.jpeg)
 
 ![Image of tree for problem 3B](doc/problemImages/problem3B.png)
 
@@ -72,6 +73,8 @@ Binary Search Tree: No`
 Full Tree: No
 Complete Tree: Yes
 Binary Search Tree: No`
+
+![Image of Binary Search Tree for 3B](doc/problemImages/IMG_0516.jpeg)
 
 4. For the binary trees shown below, indicat whether each tree is full, perfect, complete, or none of the above (note that a tree could be more than one of these!)
 
@@ -103,7 +106,7 @@ Complete: No`
 
 ![Image of general tree for problem 5](doc/problemImages/problem5-general.png)
 
-**[//Insert image here//]**
+![Image of binary tree for problem 5](doc/problemImages/IMG_0517.jpeg)
 
 
 ----------
