@@ -9,7 +9,7 @@
 
 Using the provided ChangeCalculator class, implement the recursive method `calculateChange(int)` which will dispense change for a given amount of money. The method will **display and return** the total number of combinations of quarters, dimes, nickels, and pennies that equal the desired amount and all of the combinations as well. Avoid duplication.
 
-If you choose to use a data structure, it must be one that we've covered and you must thoroughly justify why it was the best choice (based on run-time efficiency): **[//here//]**
+If you choose to use a data structure, it must be one that we've covered and you must thoroughly justify why it was the best choice (based on run-time efficiency): I used a TreeSet data structure because it has a run-time efficiency of O(log n) for methods like add/move/contains. This efficiency is nearly on par with O(1) over time. The TreeSet also maintains a sorted iteration order, which is important for the final output of this calculator. By default, it will sort the elements in natural order (ascending order).
 
 Next, you will implement the method `printCombinationsToFile(int)`, which should contain a call to the recursive solution that you created. Creating a text file in the program's directory named `"CoinCombinations.txt"`, this method will write each combination produced to separate lines. This file will be read by the tester class to verify that your recursive solution avoids duplicate values.
 
