@@ -47,10 +47,11 @@ The two methods will be tested using 5 cent increments between 5 cents and 30 ce
 ![Image of huffman code tree](doc/problemImages/huffman.png)
 
   - Write the binary string for the message "scissors cuts paper":
-    - Binary String = `insert here`
+    - Binary String = `00110000001100011001110010010001111100000000011101001111110000110101000010100010`
   - Decode the following binary string using the tree above:
   `1100010001010001001011101100011111110001101010111101101001`
-    - Decoded String = `insert here`
+  `110001 0001 010 0010 010 111 0110 0011 111 110001 1010 10111 10110 1001`
+    - Decoded String = `where is waldo`
 
 3. For each of the two trees shown below, answer these questions:
 - What is its height?
@@ -60,29 +61,43 @@ The two methods will be tested using 5 cent increments between 5 cents and 30 ce
 
 ![Image of tree for problem 3A](doc/problemImages/problem3A.png)
 
-`insert answers here`
+`Height: 2
+Full Tree: No
+Complete Tree: Yes
+Binary Search Tree: No`
 
 ![Image of tree for problem 3B](doc/problemImages/problem3B.png)
 
-`insert answers here`
+`Height: 2
+Full Tree: No
+Complete Tree: Yes
+Binary Search Tree: No`
 
 4. For the binary trees shown below, indicat whether each tree is full, perfect, complete, or none of the above (note that a tree could be more than one of these!)
 
 ![Image of tree for problem 4A](doc/problemImages/problem4A.png)
 
-`insert answers here`
+`Full: No
+Perfect: No
+Complete: Yes`
 
 ![Image of tree for problem 4B](doc/problemImages/problem4B.png)
 
-`insert answers here`
+`Full: Yes
+Perfect: No
+Complete: Yes`
 
 ![Image of tree for problem 4C](doc/problemImages/problem4C.png)
 
-`insert answers here`
+`Full: Yes
+Perfect: No
+Complete: Yes`
 
 ![Image of tree for problem 4A](doc/problemImages/huffman.png)
 
-`insert answers here`
+`Full: Yes
+Perfect: No
+Complete: No`
 
 5. Represent the general tree below as a binary tree
 
